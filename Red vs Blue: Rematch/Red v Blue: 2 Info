@@ -6,7 +6,7 @@ ELK 192.168.1.100 similar to ELK from Project 1, holds Kibana dashboards for Day
 
 Target1 192.168.1.110 exposes a vulnerable WordPress Server
 Target2 192.168.1.115 Same wordpress but better security hardening 
-**same exploit will not worki on both
+**same exploit will not work on both
 
 Day 1: Configure Alerts, capture Target 1 flags (create 3 alerts in Watcher) WPscan in kali to target Wordpress
 WPscan used to enumerate Word Press

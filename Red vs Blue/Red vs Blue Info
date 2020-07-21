@@ -1,0 +1,14 @@
+Project 2 Red/Blue
+
+Take lots of notes
+Document steps and methodology
+
+Use Azure Labs link 
+
+1. Attack VM Kali root/p: toor
+2. Capstone target machine *fwds logs to ELK (metricbeat and filebeat)
+3. ELK VM
+
+Find the Capstone VM flag
+Answer all provided questions about the logs captured in Kibana
+Complete a presentation summarizing your findings

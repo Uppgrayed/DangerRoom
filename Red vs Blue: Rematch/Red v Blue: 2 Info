@@ -1,0 +1,28 @@
+Red vs Blue: Rematch Info 
+
+Kali 192.168.1.90 for use in pentest on Day 1
+Capstone 192.168.1.105 vulnerable target VM use test alerts (has Filebeat and Metricbeat) will fwd logs to ELK
+ELK 192.168.1.100 similar to ELK from Project 1, holds Kibana dashboards for Day 2
+
+Target1 192.168.1.110 exposes a vulnerable WordPress Server
+Target2 192.168.1.115 Same wordpress but better security hardening 
+**same exploit will not worki on both
+
+Day 1: Configure Alerts, capture Target 1 flags (create 3 alerts in Watcher) WPscan in kali to target Wordpress
+WPscan used to enumerate Word Press
+
+Day2: Capture Target 2 VM
+
+Day 3: Analyze live traffic with Wireshark
+
+Day 4 Presentation
+
+
+Access Kibana - Watcher via the Chrome browser in the Windows VM, no need to open the ELK server
+
+1. **NEED 2 More alerts for Watcher, look at Project 2 alerts as well, some of them should be relevant
+
+2. netdiscover to look for all IPs on the subnet **have already been given them but this is the true way
+   nmap -sC -sV <ip addres> or -sV*
+
+3. wpscan to scan for wordpress versions and look for vulnerabilities
